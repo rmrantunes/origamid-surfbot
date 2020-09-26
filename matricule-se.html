@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Alice&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/matricule-se.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Surfbot</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-content container">
+      <a class="header-logo" href="index.html"><img src="img/surfbot-logo.svg" alt=""></a>
+
+      <div class="hamb">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+        <a href="" style="display: none;"><img src="img/hamburger-menu.svg" alt=""></a>
+
+      </div>
+
+      <nav class="header-menu">
+        <ul>
+          <li><a href="#">Praia</a></li>
+          <li><a href="#">Aulas</a></li>
+          <li><a href="#">Contato</a></li>
+          <li><a href="matricule-se.html">Matricule-se</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="title">
+    <h1>Matricule-se</h1>
+  </section>
+
+  <main class="main-content">
+    <form action="" class="container" id="">
+      <section class="dados">
+        <div class="dados-pessoais">
+          <label for="">Nome</label>
+          <input type="text" name="" id="">
+          <label for="">Email</label>
+          <input type="email" name="" id="">
+          <label for="">CPF</label>
+          <input type="number" placeholder="111.111.111-01">
+          <div class="input-grid">
+            <div id="cep-sect">
+              <label for="">CEP</label>
+              <input type="number" name="" id="">
+            </div>
+
+            <div id="endereco-sect">
+              <label for="">Endereço</label>
+              <input type="text" name="" id="">
+            </div>
+
+            <div id="estado-sect">
+              <label for="">Estado</label>
+              <select name="" id="">
+                <option value="0">Selecione o Estado</option>
+              </select>
+            </div>
+
+            <div id="cidade-sect">
+              <label for="">Cidade</label>
+              <select name="" id="">
+                <option value="0">Selecione a Cidade</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="forma-de-pagamento">
+          <h2 class="fdp-h3">Forma de pagamento</h2>
+
+          <div class="pagamento-container">
+            <div class="radio-selection">
+              <div class="radio-cc">
+                <input type="radio" name="cc" id="">
+                <label for="cc">Cartão de Crédito</label>
+              </div>
+
+              <div class="radio-bb">
+                <input type="radio" name="bb" id="">
+                <label for="bb">Boleto Bancário</label>
+              </div>
+            </div>
+
+            <div class="input-grid">
+              <div class="nome-cc-sect">
+                <label for="">Nome no Cartão</label>
+                <input type="text" name="" placeholder="Nome impresso no cartão" id="">
+              </div>
+
+              <div class="expiracao-sect">
+                <label for="">Data de expiração</label>
+
+                <div class="expiracao-select-flex">
+                  <select name="" id="">
+                    <option value="0">Mês</option>
+                  </select>
+                  <select name="" id="">
+                    <option value="0">Ano</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="nc-sect">
+                <label for="">Número do Cartão</label>
+                <input type="text" name="" placeholder="0000 0000 0000 0000">
+              </div>
+
+              <div class="codigo-sect">
+                <label for="">Código de segurança</label>
+                <input type="text" name="" placeholder="XXX">
+              </div>
+            </div>
+          </div>
+
+          <div class="finalizar-compra">
+            <span>Seu cartão será debitado em R$49,00</span>
+            <button type="submit">Concluir compra</button>
+            <span>Informções seguras e criptografadas</span>
+          </div>
+        </div>
+      </section>
+    </form>
+
+
+    <section class="plano-escolhido">
+      <div class="plano-card">
+        <h3>Escolha o plano:</h3>
+        <form class="radio-selection">
+          <input type="radio" name="infantil" id="">
+          <label for="infantil">Infantil</label>
+          <input type="radio" name="adulto" id="">
+          <label for="adulto">Adulto</label>
+          <input type="radio" name="profissional" id="">
+          <label for="profissional">Profissional</label>
+        </form>
+
+
+        <ul class="planos-lista">
+          <li class="planos-item">
+            <div class="icones">
+              <img src="img/surfbot-planos.svg" alt="">
+            </div>
+            <div class="planos-content">
+              <h3>Infantil</h3>
+
+              <ul>
+                <li>Público entre 5 e 15 anos</li>
+                <li>Equipamentos fornecidos</li>
+                <li>Horários de Seg à Sab</li>
+                <li>2 horas seguidas se aula</li>
+              </ul>
+
+              <span>R$ 49,00 / aula</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>Surfnet 2020 - Alguns direitos reservados</p>
+      <img src="img/surfbot-logo-footer.svg" alt="">
+    </div>
+  </footer>
+
+  <script src="js/navMenu.js"></script>
+</body>
+
+</html>

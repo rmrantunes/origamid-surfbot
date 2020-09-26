@@ -1,0 +1,117 @@
+label {
+  display: block;
+  font-size: 1.125rem;
+  font-weight: bold;
+  color: var(--gray-2);
+  margin-bottom: 5px;
+}
+
+input,
+select {
+  width: 100%;
+  background-color: var(--soft-gray-3);
+  color: var(--soft-gray-2);
+  padding: 12px;
+  font-size: 1.125rem;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.title {
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  background-color: var(--soft-gray-3);
+}
+
+.title h1 {
+  text-align: center;
+  color: var(--gray);
+}
+
+main.main-content {
+  padding: 60px 0;
+}
+
+main.main-content .container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.dados {
+  flex: 1;
+  max-width: 570px;
+}
+
+.dados-pessoais {
+  margin-bottom: 30px;
+}
+
+.plano-escolhido {
+  flex: 1;
+}
+
+.pagamento-container {
+  padding: 30px 0;
+  border-top: 2px solid var(--soft-gray-2);
+  border-bottom: 2px solid var(--soft-gray-2);
+}
+
+.radio-selection {
+  background-color: var(--soft-gray-3);
+  border-radius: 5px;
+  height: 50px;
+}
+
+.radio-selection input {
+  color: var(--nice-blue);
+}
+
+.radio-selection > div {
+  display: flex;
+}
+
+.radio-selection > div label {
+
+}
+
+.input-grid {
+  display: grid;
+  grid-template-columns: 2fr repeat(2, 1fr);
+  grid-template-rows: auto;
+  gap: 15px;
+}
+
+.input-grid input,
+.input-grid select {
+  margin-bottom: 0px;
+}
+
+#cep-sect,
+#estado-sect {
+  grid-column: 1 / 2;
+}
+
+#endereco-sect,
+#cidade-sect {
+  grid-column: 2 / 4;
+}
+
+.nome-cc-sect,
+.nc-sect {
+  grid-column: 1 / 2;
+}
+
+.expiracao-sect,
+.codigo-sect {
+  grid-column: 2 / 4;
+}
+
+.expiracao-select-flex {
+  display: flex;
+}
+
+.expiracao-select-flex select:nth-child(1) {
+  margin-right: 15px;
+}
